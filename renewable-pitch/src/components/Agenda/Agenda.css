@@ -1,0 +1,42 @@
+/* src/components/Agenda/Agenda.css */
+
+.agenda-section {
+    background-color: #1a202c; /* dark gray */
+    color: #f7fafc; /* light gray */
+    padding: 4rem 1.5rem;
+  }
+  
+  .agenda-container {
+    max-width: 64rem; /* Matches Tailwind's max-w-4xl */
+    margin: 0 auto;
+  }
+  
+  .agenda-title {
+    font-size: 2.25rem; /* Matches Tailwind's text-4xl */
+    font-weight: 700; /* Bold */
+    text-align: center;
+    color: #48bb78; /* Green */
+    margin-bottom: 2rem;
+  }
+  
+  .agenda-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .agenda-item {
+    background-color: #2d3748; /* Slightly lighter gray */
+    color: #a0aec0; /* Muted gray text */
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .agenda-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15); /* Larger shadow */
+  }
+  

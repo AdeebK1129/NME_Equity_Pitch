@@ -1,0 +1,76 @@
+.client-profile-section {
+    background-color: #1a202c; /* Dark background */
+    color: #e2e8f0; /* Light text */
+    padding: 3rem 1.5rem;
+    text-align: center; /* Center-aligns the section */
+  }
+  
+  .client-profile-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .client-profile-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #38a169; /* Accent green */
+    margin-bottom: 2.5rem;
+  }
+  
+  .client-profile-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center; /* Centers the two columns */
+    align-items: stretch; /* Ensures both columns are equal height */
+  }
+  
+  .client-profile-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 48%;
+  }
+  
+  .client-profile-text h3 {
+    font-size: 1.75rem;
+    color: #48bb78; /* Secondary green */
+    margin-bottom: 1rem;
+  }
+  
+  .client-profile-text p {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+  }
+  
+  .client-profile-text ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .client-profile-text ul li {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+  }
+  
+  .client-profile-text ul li strong {
+    color: #81e6d9; /* Highlight */
+  }
+  
+  .client-profile-visual {
+    flex: 1;
+    min-width: 300px;
+    max-width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically align the image */
+  }
+  
+  .client-profile-visual img {
+    height: 100%; /* Scale image height to match the column */
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  

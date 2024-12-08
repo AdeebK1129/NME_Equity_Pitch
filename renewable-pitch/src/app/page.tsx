@@ -1,5 +1,6 @@
 import BoxReveal from "@/components/ui/box-reveal";
 import Agenda from "@/components/Agenda/Agenda";
+import ClientProfile from "@/components/ClientProfile/ClientProfile";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
 
       {/* Agenda Section */}
       <Agenda />
+
+      {/* ClientProfile Section */}
+      <ClientProfile />
     </div>
   );
 }

@@ -1,30 +1,26 @@
 // src/components/Agenda/Agenda.tsx
-import { AnimatedList } from "../ui/animated-list";
-
+import "./Agenda.css";
 
 export default function Agenda() {
+  const agendaItems = [
+    "1. Client Profile and Investment Goals",
+    "2. Top-Down and Sector Analysis",
+    "3. Selected Asset and Rationale",
+    "4. Valuation and Catalysts",
+    "5. Conclusion and Recommendations",
+  ];
+
   return (
-    <section className="bg-gray-900 text-gray-100 py-16 px-6">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-green-500 mb-8">
-          Agenda
-        </h2>
-        <AnimatedList delay={300}>
-          {[
-            "1. Client Profile and Investment Goals",
-            "2. Top-Down and Sector Analysis",
-            "3. Selected Asset and Rationale",
-            "4. Valuation and Catalysts",
-            "5. Conclusion and Recommendations",
-          ].map((item, index) => (
-            <div
-              key={index}
-              className="bg-gray-800 text-gray-300 p-4 rounded-lg shadow-md mb-4"
-            >
+    <section className="agenda-section">
+      <div className="agenda-container">
+        <h2 className="agenda-title">Agenda</h2>
+        <ul className="agenda-list">
+          {agendaItems.map((item, index) => (
+            <li key={index} className="agenda-item">
               {item}
-            </div>
+            </li>
           ))}
-        </AnimatedList>
+        </ul>
       </div>
     </section>
   );
