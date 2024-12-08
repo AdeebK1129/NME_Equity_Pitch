@@ -1,6 +1,7 @@
 import BoxReveal from "@/components/ui/box-reveal";
 import Agenda from "@/components/Agenda/Agenda";
 import ClientProfile from "@/components/ClientProfile/ClientProfile";
+import TopDownAnalysis from "@/components/TopDownAnalysis/TopDownAnalysis";
 
 export default function Home() {
   return (
@@ -22,8 +23,11 @@ export default function Home() {
       {/* Agenda Section */}
       <Agenda />
 
-      {/* ClientProfile Section */}
+      {/* Client Profile Section */}
       <ClientProfile />
+
+      {/* Top-Down and Sector Analysis Section */}
+      <TopDownAnalysis />
     </div>
   );
 }
