@@ -4,6 +4,7 @@ import ClientProfile from "@/components/ClientProfile/ClientProfile";
 import TopDownAnalysis from "@/components/TopDownAnalysis/TopDownAnalysis";
 import MiniHero from "@/components/MiniHero/MiniHero";
 import SplitContent from "@/components/SplitContent/SplitContent";
+import ValuationCatalysts from "@/components/ValuationCatalysts/ValuationCatalysts";
 
 export default function Home() {
   return (
@@ -34,6 +35,9 @@ export default function Home() {
       {/* Selected Asset Section */}
       <MiniHero />
       <SplitContent />
+
+      {/* Valuation and Catalysts Section */}
+      <ValuationCatalysts />
     </div>
   );
 }

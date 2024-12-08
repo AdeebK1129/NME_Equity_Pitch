@@ -1,0 +1,60 @@
+.valuation-catalysts-section {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background-color: #1a202c; /* Dark background */
+  color: #e2e8f0; /* Light text */
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #38a169; /* Accent green */
+  margin-bottom: 2rem;
+}
+
+.radar-chart-section {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+.chart-legend {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #2d3748; /* Slight contrast for better readability */
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.catalyst-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.catalyst-card {
+  background-color: #2d3748; /* Darker background for cards */
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  text-align: left;
+}
+
+.catalyst-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #81e6d9; /* Light teal for icons */
+}
+
+.catalyst-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.catalyst-description {
+  font-size: 1rem;
+  line-height: 1.6;
+}
