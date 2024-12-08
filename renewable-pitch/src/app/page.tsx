@@ -5,6 +5,7 @@ import TopDownAnalysis from "@/components/TopDownAnalysis/TopDownAnalysis";
 import MiniHero from "@/components/MiniHero/MiniHero";
 import SplitContent from "@/components/SplitContent/SplitContent";
 import ValuationCatalysts from "@/components/ValuationCatalysts/ValuationCatalysts";
+import ConclusionRecommendations from "@/components/ConclusionRecomendations/ConclusionRecommendations";
 
 export default function Home() {
   return (
@@ -38,6 +39,9 @@ export default function Home() {
 
       {/* Valuation and Catalysts Section */}
       <ValuationCatalysts />
+
+      {/* Conclusion Section */}
+      <ConclusionRecommendations />
     </div>
   );
 }

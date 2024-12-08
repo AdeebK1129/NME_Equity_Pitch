@@ -1,0 +1,99 @@
+.conclusion-section {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    background-color: #0b1323; /* Dark background */
+    color: #e2e8f0; /* Light text */
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #38a169; /* Accent green */
+    margin-bottom: 2rem;
+  }
+  
+  /* Recommendation Card */
+  .recommendation-card {
+    background-color: #2d3748; /* Darker card background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+  }
+  
+  .recommendation-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #81e6d9; /* Light teal */
+  }
+  
+  .recommendation-card .highlight {
+    color: #48bb78; /* Green highlight */
+  }
+  
+  .recommendation-card p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+  
+  /* Justifications */
+  .justifications {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .justification-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    background-color: #2d3748; /* Card background */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .justification-icon {
+    font-size: 2rem;
+    color: #81e6d9; /* Icon teal */
+  }
+  
+  .justification-content {
+    text-align: left;
+  }
+  
+  .justification-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #48bb78; /* Green text */
+  }
+  
+  .justification-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e2e8f0; /* Light text */
+  }
+  
+  /* Allocation Card */
+  .allocation-card {
+    background-color: #2d3748;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .allocation-card h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #48bb78;
+  }
+  
+  .allocation-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e2e8f0;
+  }
+  
