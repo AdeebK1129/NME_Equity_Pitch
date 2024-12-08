@@ -1,6 +1,6 @@
 .top-down-analysis-section {
-    background-color: #1a202c;
-    color: #e2e8f0;
+    background-color: #1a202c; /* Dark background */
+    color: #e2e8f0; /* Light text */
     padding: 3rem 1.5rem;
     text-align: center;
   }
@@ -8,39 +8,45 @@
   .section-title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #38a169;
-    margin-bottom: 2.5rem;
+    color: #38a169; /* Accent green */
+    margin-bottom: 2rem;
   }
   
-  .macro-cards {
-    display: flex;
-    flex-wrap: wrap;
+  .analysis-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #48bb78; /* Secondary green */
+    margin: 2rem 0 1.5rem;
+  }
+  
+  .macro-cards, .sector-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    justify-content: center;
+    margin-top: 1.5rem;
   }
   
-  .macro-card {
-    background-color: #2d3748;
-    color: #e2e8f0;
-    border-radius: 10px;
-    padding: 2rem;
+  .macro-card, .sector-card {
+    background-color: #2d3748; /* Card background */
+    padding: 1.5rem;
+    border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-    width: 300px;
-    text-align: center;
+    text-align: left;
   }
   
   .macro-icon {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
   }
   
-  .macro-title {
+  .macro-title, .sector-title {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #48bb78; /* Secondary green */
     margin-bottom: 1rem;
   }
   
-  .macro-description {
+  .macro-description, .sector-description {
     font-size: 1.125rem;
     line-height: 1.75;
   }
