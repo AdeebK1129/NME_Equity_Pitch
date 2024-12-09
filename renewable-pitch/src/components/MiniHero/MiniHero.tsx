@@ -36,7 +36,7 @@ export default function MiniHero() {
         {isVisible && (
           <TypingAnimation
             text="Discover how Enphase Energy is leading the way in solar technology with its innovative microinverters and energy storage systems."
-            duration={50}
+            duration={30}
           />
         )}
       </div>

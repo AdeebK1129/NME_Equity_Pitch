@@ -1,7 +1,7 @@
-.conclusion-section {
+.conclusion-recommendations {
     padding: 3rem 1.5rem;
     text-align: center;
-    background-color: #0b1323; /* Dark background */
+    background-color: #090f1c; /* Dark background */
     color: #e2e8f0; /* Light text */
   }
   
@@ -9,91 +9,99 @@
     font-size: 2rem;
     font-weight: bold;
     color: #38a169; /* Accent green */
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
   }
   
-  /* Recommendation Card */
-  .recommendation-card {
-    background-color: #2d3748; /* Darker card background */
-    padding: 1.5rem;
+  /* Circular Visualization */
+  .circular-visualization {
+    position: relative;
+    width: 700px; /* Larger for better spacing */
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, #2d3748, #1a202c); /* Subtle gradient */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 8rem;
+  }
+  
+  /* Center Circle */
+  .circle-center {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #38a169; /* Accent green */
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .recommendation-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .recommendation-details {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  /* Outer Segments */
+  .circle-segments {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .segment {
+    position: absolute;
+    width: 150px;
+    background-color: #2d3748; /* Darker background for segments */
+    padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
-    margin-bottom: 2rem;
+    text-align: center;
+    transform: translate(-50%, -50%);
   }
   
-  .recommendation-card h3 {
-    font-size: 1.5rem;
+  .segment h4 {
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
     color: #81e6d9; /* Light teal */
   }
   
-  .recommendation-card .highlight {
-    color: #48bb78; /* Green highlight */
+  .segment p {
+    font-size: 0.875rem;
+    line-height: 1.4;
   }
   
-  .recommendation-card p {
-    font-size: 1.125rem;
-    line-height: 1.6;
+  /* Segment Positioning */
+  .segment:nth-child(1) {
+    top: 5%; /* Top */
+    left: 50%;
   }
   
-  /* Justifications */
-  .justifications {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
+  .segment:nth-child(2) {
+    top: 50%;
+    left: 95%; /* Right */
   }
   
-  .justification-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    background-color: #2d3748; /* Card background */
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  .segment:nth-child(3) {
+    bottom: -17%; /* Bottom */
+    left: 50%;
   }
   
-  .justification-icon {
-    font-size: 2rem;
-    color: #81e6d9; /* Icon teal */
-  }
-  
-  .justification-content {
-    text-align: left;
-  }
-  
-  .justification-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #48bb78; /* Green text */
-  }
-  
-  .justification-description {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #e2e8f0; /* Light text */
-  }
-  
-  /* Allocation Card */
-  .allocation-card {
-    background-color: #2d3748;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
-  }
-  
-  .allocation-card h4 {
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    color: #48bb78;
-  }
-  
-  .allocation-card p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #e2e8f0;
+  .segment:nth-child(4) {
+    top: 50%;
+    left: 5%; /* Left */
   }
   

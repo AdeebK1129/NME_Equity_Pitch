@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Radar } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -17,12 +17,41 @@ import "./ValuationCatalysts.css";
 ChartJS.register(RadialLinearScale, PointElement, LineElement, Filler, Tooltip, Legend);
 
 export default function ValuationCatalysts() {
+  const [inView, setInView] = useState(false);
+  const [radarChartData, setRadarChartData] = useState([0, 0, 0]); // Initialize empty chart data
+
+  // Detect when the radar chart section is in view
+  useEffect(() => {
+    const handleScroll = () => {
+      const element = document.querySelector(".radar-chart-section");
+      if (element) {
+        const rect = element.getBoundingClientRect();
+        const isVisible = rect.top <= window.innerHeight * 0.75 && rect.bottom >= window.innerHeight * 0.25;
+        if (isVisible) {
+          setInView(true);
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Populate radar chart data once in view
+  useEffect(() => {
+    if (inView) {
+      setTimeout(() => {
+        setRadarChartData([40, 20, 240]);
+      }, 300); // Add a delay for animation
+    }
+  }, [inView]);
+
   const radarData = {
     labels: ["P/E Ratio", "EV/EBITDA", "DCF"],
     datasets: [
       {
         label: "Valuation Metrics",
-        data: [40, 20, 240],
+        data: radarChartData,
         backgroundColor: "rgba(72, 187, 120, 0.3)", // Brighter green transparent
         borderColor: "#48bb78", // Brighter green
         borderWidth: 3,
@@ -33,7 +62,7 @@ export default function ValuationCatalysts() {
       },
     ],
   };
-  
+
   const radarOptions = {
     scales: {
       r: {
