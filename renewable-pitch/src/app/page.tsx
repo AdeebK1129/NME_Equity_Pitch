@@ -6,6 +6,7 @@ import MiniHero from "@/components/MiniHero/MiniHero";
 import SplitContent from "@/components/SplitContent/SplitContent";
 import ValuationCatalysts from "@/components/ValuationCatalysts/ValuationCatalysts";
 import ConclusionRecommendations from "@/components/ConclusionRecomendations/ConclusionRecommendations";
+import EnphaseMarquee from "@/components/EnphaseMarquee/EnphaseMarquee";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
 
       {/* Selected Asset Section */}
       <MiniHero />
+      <EnphaseMarquee />
       <SplitContent />
 
       {/* Valuation and Catalysts Section */}

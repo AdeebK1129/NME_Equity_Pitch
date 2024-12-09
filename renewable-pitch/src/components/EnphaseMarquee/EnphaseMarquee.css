@@ -1,0 +1,34 @@
+/* EnphaseMarquee.css */
+
+.enphase-marquee {
+    background-color: #1a202c; /* Dark background */
+    padding: 1rem 0;
+  }
+  
+  .marquee-card {
+    background-color: #2d3748; /* Slightly lighter dark background */
+    padding: 1rem;
+    margin-right: 1rem; /* Space between boxes */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    width: 300px; /* Box width */
+    color: #e2e8f0; /* Light text */
+  }
+  
+  .marquee-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .marquee-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #81e6d9; /* Teal color for titles */
+  }
+  
+  .marquee-description {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  
