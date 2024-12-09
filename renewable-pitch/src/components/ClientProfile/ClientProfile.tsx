@@ -2,7 +2,7 @@ import "./ClientProfile.css";
 
 export default function ClientProfile() {
   return (
-    <section className="client-profile-section">
+    <section className="client-profile-section" id="client-profile">
       <div className="client-profile-container">
         {/* Title */}
         <h2 className="client-profile-title">Who Is This For?</h2>

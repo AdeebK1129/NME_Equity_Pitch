@@ -1,0 +1,24 @@
+.live-stock-chart-section {
+    padding: 2rem;
+    text-align: center;
+    background-color: #090f1c; /* Dark background */
+    color: #e2e8f0; /* Light text */
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #38a169; /* Green accent */
+    margin-bottom: 2rem;
+  }
+  
+  .chart-container {
+    width: 1800px; /* Adjust the width of the chart */
+    height: 600px; /* Adjust the height of the chart */
+    margin: 0 auto; /* Center the chart container */
+    padding: 1rem;
+    background-color: #1a202c; /* Slightly lighter background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  

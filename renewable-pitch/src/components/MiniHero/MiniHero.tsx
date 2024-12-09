@@ -30,7 +30,7 @@ export default function MiniHero() {
   }, []);
 
   return (
-    <div className="mini-hero" ref={miniHeroRef}>
+    <div className="mini-hero" ref={miniHeroRef} id="selected-asset">
       <h1 className="mini-hero-title">Selected Asset: Enphase Energy (ENPH)</h1>
       <div className="mini-hero-tagline">
         {isVisible && (

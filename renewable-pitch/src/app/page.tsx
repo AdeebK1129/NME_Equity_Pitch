@@ -7,6 +7,7 @@ import SplitContent from "@/components/SplitContent/SplitContent";
 import ValuationCatalysts from "@/components/ValuationCatalysts/ValuationCatalysts";
 import ConclusionRecommendations from "@/components/ConclusionRecomendations/ConclusionRecommendations";
 import EnphaseMarquee from "@/components/EnphaseMarquee/EnphaseMarquee";
+import LiveStockChart from "@/components/LiveStockChart/LiveStockChart";
 
 export default function Home() {
   return (
@@ -38,6 +39,9 @@ export default function Home() {
       <MiniHero />
       <EnphaseMarquee />
       <SplitContent />
+      
+      {/* Live Stock Chart */}
+      <LiveStockChart />
 
       {/* Valuation and Catalysts Section */}
       <ValuationCatalysts />

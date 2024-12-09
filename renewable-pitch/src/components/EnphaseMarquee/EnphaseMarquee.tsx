@@ -22,12 +22,12 @@ const articles = [
     {
       title: "Enphase Energy Launches the IQ PowerPack 1500",
       description: "Introducing a 1500 Wh portable energy system to power small appliances at home, work, or outdoors.",
-      url: "https://finance.yahoo.com/news/enphase-energy-launches-iq-powerpack-1500-2024-11-21/",
+      url: "https://investor.enphase.com/news-releases/news-release-details/enphase-energy-launches-iq-powerpack-1500-united-states-and",
     },
     {
       title: "Enphase Energy Begins Shipments for IQ Battery 5Ps",
       description: "Enphase starts U.S. shipments of its latest battery systems, enhancing energy storage solutions.",
-      url: "https://finance.yahoo.com/news/enphase-energy-begins-shipments-iq-2024-11-15/",
+      url: "https://www.stocktitan.net/news/ENPH/enphase-energy-begins-shipments-for-iq-battery-5ps-produced-in-the-8mwkz6id3bl6.html#:~:text=Enphase%20Energy%20has%20announced%20the,residential%20solar%20and%20battery%20projects.",
     },
     {
       title: "Enphase Energy to Lay Off 17% of Workforce",

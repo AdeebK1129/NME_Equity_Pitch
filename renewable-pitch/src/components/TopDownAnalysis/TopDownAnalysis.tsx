@@ -41,7 +41,7 @@ export default function TopDownAnalysis() {
   ];
 
   return (
-    <section className="top-down-analysis-section">
+    <section className="top-down-analysis-section" id="sector-analysis">
       <h2 className="section-title">Top-Down Analysis: Why Renewable Energy is Booming</h2>
 
       {/* Macro Analysis Section */}

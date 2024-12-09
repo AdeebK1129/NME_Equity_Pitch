@@ -117,7 +117,7 @@ export default function ValuationCatalysts() {
   ];
 
   return (
-    <section className="valuation-catalysts-section">
+    <section className="valuation-catalysts-section" id="valuation-catalysts">
       <h2 className="section-title">Valuation and Catalysts</h2>
 
       {/* Radar Chart Section */}

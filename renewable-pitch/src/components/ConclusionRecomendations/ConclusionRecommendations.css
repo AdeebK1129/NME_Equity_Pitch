@@ -1,4 +1,4 @@
-.conclusion-recommendations {
+  .conclusion-recommendations {
     padding: 3rem 1.5rem;
     text-align: center;
     background-color: #090f1c; /* Dark background */
@@ -9,22 +9,23 @@
     font-size: 2rem;
     font-weight: bold;
     color: #38a169; /* Accent green */
-    margin-bottom: 8rem;
+    margin-bottom: 6rem; /* Adjusted for proper spacing */
   }
   
-  /* Circular Visualization */
   .circular-visualization {
+    margin-top: 6rem; /* Adjusted to prevent overlap */
     position: relative;
     width: 700px; /* Larger for better spacing */
     height: 700px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto; /* Centers the element */
     display: flex;
     align-items: center;
     justify-content: center;
     background: radial-gradient(circle, #2d3748, #1a202c); /* Subtle gradient */
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    margin-bottom: 8rem;
+    margin-bottom: 8rem; /* Ensures proper spacing with the next section */
   }
   
   /* Center Circle */

@@ -24,7 +24,7 @@ export default function ConclusionRecommendations() {
   }, []);
 
   return (
-    <section className="conclusion-recommendations">
+    <section className="conclusion-recommendations" id="conclusion">
       <h2 className="section-title">Conclusion and Recommendations</h2>
       <div className="circular-visualization">
         <div className="circle-center">
