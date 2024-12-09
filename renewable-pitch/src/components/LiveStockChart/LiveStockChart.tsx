@@ -58,7 +58,7 @@ export default function LiveStockChart() {
           function: "TIME_SERIES_INTRADAY",
           symbol: "ENPH",
           interval: "1min",
-          apikey: process.env.STOCK_API_KEY,
+          apikey: process.env.NEXT_PUBLIC_STOCK_API_KEY,
         },
       });
 
